@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="donations__button_close">Schließen</string>
+    <string name="donations__flattr">Flattr</string>
+    <string name="donations__description">@null</string>
+    <string name="donations__flattr_description">Flattr erhält 10 % als monatlichen Beitrag!</string>
+    <string name="donations__google_android_market">Google Play Store</string>
+    <string name="donations__google_android_market_not_supported_title">In-App-Spenden werden nicht unterstützt</string>
+    <string name="donations__google_android_market_not_supported">In-App-Spenden werden nicht unterstützt. Ist der Google Play Store ordnungsgemäß installiert?</string>
+    <string name="donations__google_android_market_description">Google erhält 30 % von jeder Spender!</string>
+    <string name="donations__google_android_market_donate_button">Spenden!</string>
+    <string name="donations__google_android_market_text">Wie viel?</string>
+
+    <string-array name="donations__google_android_market_promt_array">
+        <item>$0.99 USD</item>
+        <item>$1.99 USD</item>
+        <item>$2.99 USD</item>
+        <item>$4.99 USD</item>
+        <item>$9.99 USD</item>
+    </string-array>
+
+    <string name="donations__paypal">PayPal</string>
+    <string name="donations__paypal_description">Spende einen beliebigen Betrag, indem du auf den Button klickst!</string>
+    <string name="donations__thanks_dialog_title">Danke!</string>
+    <string name="donations__thanks_dialog">Vielen Dank für die Spende!</string>
+
+</resources>

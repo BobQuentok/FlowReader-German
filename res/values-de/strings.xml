@@ -1,0 +1,226 @@
+<resources>
+
+    <string name="app_name">Flow Reader</string>
+    <string name="error_report_title">Die App musste leider beendet werden. Bitte sende mir per E-Mail einen Fehlerbericht, damit ich diesen Fehler beheben kann.</string>
+    <string name="title_activity_main">Flow Reader</string>
+    <string name="title_activity_feeds">Feeds</string>
+    <string name="title_activity_feeds_content">Feed-Inhalte</string>
+    <string name="title_activity_preferences">Erweiterte Einstellungen</string>
+    <string name="title_activity_edit_feeds">Inhaltfilter bearbeiten</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_donate">Bitte spende etwas!</string>
+    
+    <!-- Tutorial dialog -->
+    
+    <string name="tutorial_title_1">Berühre und halte den Titel eines Artikels, um zwischen \"Gelesen\" und "\Ungelesen\" umzuschalten. Du kannst mit deinem Finger auch über mehrere Elemente ziehen.</string>
+    <string name="tutorial_title_2">Berühre und halte das Artikelbild eines Artikels, um zusätzliche Optionen zu erhalten.</string>
+    <string name="tutorial_title_3">Wische mit deinem Finger vom unteren Ende des Bildschirms nach oben, um die \"Überspringen\"-Leiste aufzurufen.</string>
+
+    <!-- Donation dialog -->
+
+    <string name="donate_btn_donate">Spenden</string>
+    <string name="donate_btn_close_count" formatted="false">Nein, danke (%s)</string>
+    <string name="donate_btn_close">Nein, danke</string>
+    <string name="donate_btn_later">Später</string>
+    <string name="donate_message_intro">Hi! Du scheinst Flow Reader eine ganze Weile zu benutzen.</string>
+    <string name="donate_message">Diese App ist das Ergebnis von vielen hundert Stunden an Arbeit, die ich investiert habe, um einen schnellen, zuverlässigen und angenehmen Google Reader-Client zu entwickeln. Ich biete diese App kostenlos an, in der Hoffnung, dass sie jemand nützlich findet.\n\nFalls dir diese App gefällt, dann denke über eine kleine Spende nach! Deine Unterstützung hilft mir dabei, mich für das Hinzufügen neuer Funktionen und dem Beheben von Fehlern zu motivieren.</string>
+    <string name="donate_error_toast">Verbindung zum Google Play Store fehlgeschlagen.</string>
+    <string name="donate_loading_toast">Verbindung zum Google Play Store wird hergestellt&#8230;</string>
+    <string name="donate_picker_title">Wähle einen Betrag</string>
+    <string name="donate_complete">Vielen lieben Dank für deine Spende!</string>
+    
+    <!-- Main activity -->
+
+    <string name="title_section1">Ungelesen</string>
+    <string name="title_section2">Neu</string>
+    <string name="title_section3">Markiert</string>
+    <string name="title_section4">Autor</string>
+    <string name="main_feeds_unread_feeds">Alle ungelesenen Artikel</string>
+    <string name="main_feeds_all_feeds">Alle neuen Artikel</string>
+    <string name="main_feeds_starred_feeds">Alle markierten Artikel</string>
+    <string name="main_row_update_date_empty">Keine Artikel</string>
+    <string name="main_row_update_date">Vor %s aktualisiert</string>
+    <string name="main_authors_unknown">Unbekannter Autor</string>
+    <string name="main_wait_update_finished">Bitte warte, bis die derzeitige Aktualisierung abgeschlossen ist</string>
+    <string name="main_add_account_welcome">Willkommen!</string>
+    <string name="main_add_account_button_local">Google-Benutzerkonto</string>
+    <string name="main_add_account_button">Benutzername und Passwort. (Bald!)</string>
+    <string name="main_add_account_pick">Wähle ein Benutzerkonto</string>
+    <string name="main_add_account_next">Weiter</string>
+    <string name="main_add_account_desc_a">Flow Reader bietet eine einfache Möglichkeit, unterwegs deine Google Reader-Feeds zu lesen. Es wurde entwickelt, um dir ein minimalistisches und nahtloses Offline-Browsing-Erlebnis, sowie zusätzliche Funktionen bieten zu können, die so in anderen Apps nicht vorhanden sind.</string>
+    <string name="main_add_account_desc_b">Wähle eine Authentifizierungsmethode, um zu beginnen. Nach der Anmeldung wird Flow Reader mit der ersten Synchronisation deiner Feeds beginnen. Bitte habe etwas Geduld, da die erste Aktualisierung etwas länger als gewöhnlich dauern kann.</string>
+
+    <!-- Options side menu -->
+
+    <string name="menu_divider_accounts">BENUTZERKONTEN</string>
+    <string name="menu_divider_sync">SYNCHRONISATION</string>
+    <string name="menu_sync_item_state">Sofort synchronisieren</string>
+    <string name="menu_sync_wifi_only">Nur mit WLAN</string>
+    <string name="menu_sync_load_missing_content">Fehlende Inhalte laden</string>
+    <string name="menu_divider_interface">OBERFLÄCHE</string>
+    <string name="menu_interface_use_dark">Dunkles Thema verwenden</string>
+    <string name="menu_divider_filters">INHALTFILTER</string>
+    <string name="menu_filters_enable">Filter aktivieren</string>
+    <string name="menu_edit_filters">Filter bearbeiten</string>
+    <string name="menu_divider_otherSettings">MEHR</string>
+    <string name="menu_other_settings">Erweiterte Einstellungen</string>
+    <string name="menu_about">Über</string>
+    <string name="menu_exit">Beenden</string>
+    <string name="menu_exit_conf_title">Beenden</string>
+    <string name="menu_exit_conf_body">Deine Abonnements werden gerade aktualisiert. Soll die App wirklich beendet werden?</string>
+
+    <!-- Credentials request dialog (currently not used) -->
+
+    <string name="input_credentials_title">Registrieren</string>
+    <string name="input_credentials_log_in">Anmelden</string>
+    <string name="input_credentials_username">Benutzername</string>
+    <string name="input_credentials_password">Passwort</string>
+
+    <!-- About dialog -->
+
+    <string name="menu_about_author">Flow Reader-Version %s. Entwickelt von Diogo Ribeiro (diogopribeiro+flow.reader@hotmail.com).\n\nApp-Symbol von Chiara Vianello (http://graphicavita.wordpress.com/).</string>
+    <string name="menu_about_app_launches" formatted="false">Diese App wurde %d-mal ausgeführt.</string>
+
+    <!-- Filter dialog -->
+
+    <string name="edit_filters_editor_default">Hier berühren, um einen Filter hinzuzufügen</string>
+    <string name="edit_filters_hint">Keine Filter festgelegt.\n\nArtikel, dessen Titel Ausdrücke dieser Liste enthalten, werden automatisch als gelesen markiert.</string>
+
+    <!-- Feed titles activity -->
+
+    <string name="feed_titles_empty_info">(Keine Artikel)</string>
+    <string name="feed_titles_page_confirm_mark_all_read">Alle Artikel als gelesen markieren?</string>
+    <string name="feed_titles_page_confirm_mark_all_read_check">Nicht erneut fragen</string>
+    <string name="feed_titles_page_indicator_hint">Leiste ziehen, um zu einer Seite zu springen</string>
+    <string name="feed_titles_page_indicator" formatted="false">Seite %d von %d</string>
+    <string name="feed_titles_page_indicator_skip" formatted="false">Zu Seite %d von %d springen</string>
+    <string name="feed_titles_context_mark_prev">←   Vorherige als gelesen markieren</string>
+    <string name="feed_titles_context_mark_next">→   Nachfolgende als gelesen markieren</string>
+    <string name="feed_titles_context_mark_star">★   Markieren</string>
+    <string name="feed_titles_context_mark_unstar">☆ Markierung entfernen</string>
+    <string name="feed_titles_context_mark_share">Teilen&#8230;</string>
+    <string name="feed_titles_context_mark_open">Im Browser öffnen</string>
+    <string name="feed_titles_unknown_author">(Unbekannt)</string>
+    
+    <!-- Feed content activity -->
+
+    <string name="feed_content_page_indicator_hint">Leiste ziehen, um zu einem Artikel zu springen</string>
+    <string name="feed_content_page_indicator" formatted="false">Artikel %d von %d</string>
+    <string name="feed_content_page_indicator_skip" formatted="false">Zu Artikel %d von %d springen</string>
+    <string name="feed_content_author">von</string>
+    <string name="feed_content_author_unknown">(unbekannt)</string>
+    <string name="item_content_marked_read">Als gelesen markiert</string>
+    <string name="item_content_marked_unread">Als ungelesen markiert</string>
+    <string name="item_content_marked_starred">Markiert</string>
+    <string name="item_content_marked_unstarred">Markierung entfernt</string>
+
+    <!-- Preferences -->
+
+    <string name="prefs_category_accounts">Benutzerkonten</string>
+    <string name="prefs_category_items">Artikel</string>
+    <string name="prefs_category_database">Datenbank</string>
+    <string name="prefs_category_synchronization">Synchronisation</string>
+    <string name="prefs_category_caching">Artikelzwischenspeicher</string>
+    <string name="prefs_category_subscriptions">Abonnements</string>
+    <string name="prefs_category_interface">Oberfläche</string>
+    <string name="prefs_account_name" formatted="false">Angemeldet mit %s</string>
+    <string name="prefs_account_name_desc">Berühre, um dich von diesem Benutzerkonto abzumelden, und alle zugehörigen Daten zu löschen</string>
+    <string name="prefs_account_name_disconnected">Kein Benutzerkonto</string>
+    <string name="prefs_account_name_alert">Datenbank wird gelöscht&#8230;</string>
+    <string name="prefs_account_name_conf">Mit Abmelden vom derzeitigen Benutzerkonto werden auch alle zugehörigen Daten aus der Datenbank gelöscht.</string>
+    <string name="prefs_sync_max_unread">Max. ungelesene Artikel</string>
+    <string name="prefs_sync_max_unread_desc">Beschränke die Anzahl der ungelesenen Artikel, die heruntergeladen und gespeichert werden</string>
+    <string name="prefs_sync_read_items">Zusätzliche gelesene Artikel</string>
+    <string name="prefs_sync_read_items_desc">Die Anzahl an gelesenen Artikeln, die für den Offline-Zugriff heruntergeladen und gespeichert werden</string>
+    <string name="prefs_sync_starred_items">Zusätzlich markierte Artikel</string>
+    <string name="prefs_sync_starred_items_desc">Die Anzahl an markierten Artikeln, die für den Offline-Zugriff heruntergeladen und gespeichert werden</string>
+	<string name="prefs_sync_max_download_threads">Anzahl an parallelen Downloads</string>
+	<string name="prefs_sync_max_download_threads_desc">Reduziere diese Anzahl, falls dein Gerät nicht mehr reagiert oder Bilder fehlen</string>
+	<string name="prefs_download_read_items">Gelesene Artikel herunterladen</string>
+	<string name="prefs_download_read_items_desc">Deaktiviere diese Option, falls nur ungelesene Artikel zwischengespeichert werden sollen</string>
+	<string name="prefs_sort_sub_total_items">Autoren nach Artikel-Gesamtsumme sortieren</string>
+    <string name="prefs_sort_sub_total_items_desc">Sortiert die Autorenliste nach der gesamten Anzahl an Artikeln</string>
+    <string name="prefs_sort_asc">Artikel nach Alter sortieren</string>
+    <string name="prefs_sort_asc_desc">Sortiert die Artikel von alt nach zuletzt hinzugefügt</string>
+    <string name="prefs_confirm_mark_all_read">\"Alle als gelesen markieren\" bestätigen</string>
+    <string name="prefs_confirm_mark_all_read_desc">Zeigt ein Bestätigungsdialogfeld bevor alle Artikel als gelesen markiert werden</string>
+    <string name="prefs_flush_cache">Artikel-Zwischenspeicher leeren</string>
+    <string name="prefs_flush_cache_desc">Entfernt alle heruntergeladenen Artikel aus dem Zwischenspeicher</string>
+    <string name="prefs_flush_cache_conf_desc">Sollen wirklich alle Artikel aus dem Zwischenspeicher entfernt werden? Die nächste Inhaltsaktualisierung könnte wesentlich länger als gewöhnlich dauern.</string>
+    <string name="prefs_flush_cache_alert">Inhalt wird aus dem Zwischenspeicher entfernt&#8230;</string>
+    <string name="prefs_delete_favicons">Abonnement-Symbole löschen</string>
+    <string name="prefs_delete_favicons_desc">Entfernt die heruntergeladenen Favicons von allen Abonnements</string>
+    <string name="prefs_delete_favicons_conf_desc">Alle Favicons löschen?</string>
+    <string name="prefs_delete_favicons_task">Favicons werden entfernt&#8230;</string>
+    <string name="prefs_compact_db">Datenbank komprimieren</string>
+    <string name="prefs_compact_db_desc">Säubert und räumt die Datenbank auf (kann die Leistung leicht verbessern)</string>
+    <string name="prefs_compact_db_alert">Datenbank wird komprimiert&#8230;</string>
+    <string name="prefs_use_dark_theme">Dunkles Thema verwenden</string>
+    <string name="prefs_use_dark_theme_desc">Aktiviert ein dunkles Thema für die Benutzeroberfläche. Spart Akku bei Geräten mit AMOLED-Displays</string>
+    <string name="prefs_hw_accel">Hardware-beschleunigte UI aktivieren</string>
+    <string name="prefs_hw_accel_desc">Das Deaktivieren der Hardwarebeschleunigung kann auf älteren Geräten zu einer flüssigeren Benutzeroberfläche führen</string>
+    <string name="prefs_reset_tutorials">Anleitung zurücksetzen</string>
+    <string name="prefs_reset_tutorials_desc">Verwende diese Option, falls du die Anleitung erneut sehen möchtest</string>
+    <string name="prefs_reset_tutorials_toast">Anleitung zurückgesetzt</string>
+
+    <!-- Synchronization status messages -->
+
+    <string name="status_default">Wird aktualisiert&#8230;</string>
+    <string name="status_authenticating">Wird authentifiziert&#8230;</string>
+    <string name="status_sync_item_state">Artikel werden synchronisiert&#8230;</string>
+    <string name="status_login_failed">Anmeldung fehlgeschlagen. Bitte versuche es erneut.</string>
+    <string name="status_updating_subscriptions">Abonnements werden aktualisiert&#8230;</string>
+    <string name="status_updating_icons">Abonnement-Symbole werden aktualisiert&#8230;</string>
+    <string name="status_updating_unread_items">Ungelesene Artikel werden aktualisiert&#8230;</string>
+    <string name="status_updating_read_items">Gelesene Artikel werden aktualisiert&#8230;</string>
+    <string name="status_updating_starred_items">Markierte Artikel werden aktualisiert&#8230;</string>
+    <string name="status_updating_filters">Gefilterte Artikel werden als gelesen markiert&#8230;</string>
+    <string name="status_checking_downloaded">Heruntergeladene Inhalte werden verifiziert&#8230;</string>
+    <string name="status_downloading_item" formatted="false">Artikel %d von %d wird heruntergeladen&#8230;</string>
+    <string name="status_cleanup">Wird gesäubert&#8230;</string>
+    <string name="status_updated_successfully">Aktualisierung abgeschlossen!</string>
+    <string name="status_error" formatted="false">Fehler aufgetreten (%s)</string>
+    <string name="status_error_auth" formatted="false">Authentifizierung fehlgeschlagen (%s)</string>
+    <string name="status_cancelled" formatted="false">Aktualisierung vom Benutzer abgebrochen</string>
+
+    <!-- Relative dates -->
+
+    <string name="date_less_than_one_second">einem Augenblick</string>
+    <string name="date_one_second">einer Sekunde</string>
+    <string name="date_seconds">Sekunden</string>
+    <string name="date_one_minute">einer Minute</string>
+    <string name="date_minutes">Minuten</string>
+    <string name="date_one_hour">einer Stunde</string>
+    <string name="date_hours">Stunden</string>
+    <string name="date_one_day">einem Tag</string>
+    <string name="date_days">Tagen</string>
+    <string name="date_one_month">einem Monat</string>
+    <string name="date_months">Monaten</string>
+    <string name="date_month_january">Januar</string>
+    <string name="date_month_february">Februar</string>
+    <string name="date_month_march">März</string>
+    <string name="date_month_april">April</string>
+    <string name="date_month_may">Mai</string>
+    <string name="date_month_june">Juni</string>
+    <string name="date_month_july">Juli</string>
+    <string name="date_month_august">August</string>
+    <string name="date_month_september">September</string>
+    <string name="date_month_october">Oktober</string>
+    <string name="date_month_november">November</string>
+    <string name="date_month_december">Dezember</string>
+
+    <!-- Generic strings -->
+
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="donate">Spenden</string>
+    <string name="log_out">Abmelden</string>
+    <string name="exit">Beenden</string>
+    <string name="close">Schließen</string>
+    <string name="delete">Löschen</string>
+    <string name="confirm_action">Vorgang bestätigen</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="next">Weiter</string>
+    <string name="unknown_title">(Unbekannter Titel)</string>
+
+</resources>
